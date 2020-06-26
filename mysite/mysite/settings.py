@@ -124,6 +124,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # shell確認用 os.path.join(os.path.dirname(os.path.dirname(os.path.abspath('__file__'))), 'mysite/static') 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'mysite/static'),
-]
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'mysite/static'),
+#]
