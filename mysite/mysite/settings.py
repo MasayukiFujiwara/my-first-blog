@@ -123,10 +123,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_ROOT = '/home/fujiblogt/fujiblogt.pythonanywhere.com/mysite/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = '/home/fujiblogt/fujiblogt.pythonanywhere.com/mysite/static/'
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 STATICFILES_DIRS = (
-    "/home/fujiblogt/fujiblogt.pythonanywhere.com/mysite/static",
+    os.path.join(BASE_DIR, 'static'),
 )
