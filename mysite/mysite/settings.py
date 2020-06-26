@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '7ry8*%d5)ht5&y=iyfvn!g8n=b_1@^q9+hocq9z0embqh64=x0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
@@ -120,6 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#STATIC_ROOT = '/home/fujiblogt/fujiblogt.pythonanywhere.com/mysite/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'mysite/static')
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
